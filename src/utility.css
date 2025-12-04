@@ -1,0 +1,25 @@
+.text-no-wrap {
+    white-space: nowrap;
+    @apply max-w-dvw;
+}
+
+.overflow-x-hidden {
+    overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+    overflow-y: hidden;
+}
+
+.my-padding {
+    @apply px-[1rem] py-[1rem];
+}
+
+.my-margin {
+    @apply mx-[1rem] my-[1rem];
+}
+
+.my-screen {
+    @apply w-full;
+    height: calc(100vh - 2rem);
+}
